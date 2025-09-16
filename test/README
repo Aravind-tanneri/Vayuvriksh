@@ -1,7 +1,8 @@
 Vayuvriksh - ESP32 Aeroponics Controller 🌿
   "Vayuvriksh" (वायुवृक्ष - Air Tree) is a comprehensive, IoT-enabled controller for automated aeroponics systems, built on the ESP32 platform. It hosts a real-time web dashboard for monitoring sensor data, viewing historical trends, and manually controlling system functions.
 
-![Vayuvriksh Dashboard](https://github.com/Aravind-tanneri/Vayuvriksh/blob/main/Dashboard.jpg)
+
+![Vayuvriksh Dashboard](https://raw.githubusercontent.com/Aravind-tanneri/Vayuvriksh/main/Dashboard.jpg)
 
 ✨ Features
   Real-Time Web Dashboard: Access a responsive, grid-based dashboard from any device on your network.
