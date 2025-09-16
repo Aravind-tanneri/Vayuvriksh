@@ -1,59 +1,59 @@
 Vayuvriksh - ESP32 Aeroponics Controller 🌿
-"Vayuvriksh" (वायुवृक्ष - Air Tree) is a comprehensive, IoT-enabled controller for automated aeroponics systems, built on the ESP32 platform. It hosts a real-time web dashboard for monitoring sensor data, viewing historical trends, and manually controlling system functions.
+  "Vayuvriksh" (वायुवृक्ष - Air Tree) is a comprehensive, IoT-enabled controller for automated aeroponics systems, built on the ESP32 platform. It hosts a real-time web dashboard for monitoring sensor data, viewing historical trends, and manually controlling system functions.
 
-[-- Add a screenshot of your dashboard here! --]
+
 
 ✨ Features
-Real-Time Web Dashboard: Access a responsive, grid-based dashboard from any device on your network.
+  Real-Time Web Dashboard: Access a responsive, grid-based dashboard from any device on your network.
+  
+  Live Sensor Monitoring: Continuously tracks pH, Electrical Conductivity (EC), and ambient light levels.
+  
+  Dynamic Data Charting: Plots sensor data over time using Chart.js for easy trend analysis.
+  
+  Automated Pump Cycles: Manages a single pump for both misting and flushing operations on independent, configurable timers.
+  
+  Automated Grow Lights: Controls grow lights based on a light-dependent resistor (LDR) to ensure plants get enough light.
+  
+  Intelligent Alerts & Dosing:
+  
+  Monitors pH and EC levels against user-defined thresholds.
+  
+  Provides alerts and calculates suggested doses for nutrient solutions ("Jeevan" & "Shakti") and pH adjusters ("Vriddhi" & "Saman").
+  
+  Manual Overrides: A full suite of controls on the dashboard to:
+  
+  Start a manual pump cycle.
 
-Live Sensor Monitoring: Continuously tracks pH, Electrical Conductivity (EC), and ambient light levels.
-
-Dynamic Data Charting: Plots sensor data over time using Chart.js for easy trend analysis.
-
-Automated Pump Cycles: Manages a single pump for both misting and flushing operations on independent, configurable timers.
-
-Automated Grow Lights: Controls grow lights based on a light-dependent resistor (LDR) to ensure plants get enough light.
-
-Intelligent Alerts & Dosing:
-
-Monitors pH and EC levels against user-defined thresholds.
-
-Provides alerts and calculates suggested doses for nutrient solutions ("Jeevan" & "Shakti") and pH adjusters ("Vriddhi" & "Saman").
-
-Manual Overrides: A full suite of controls on the dashboard to:
-
-Start a manual pump cycle.
-
-Force stop all automated operations.
-
-Resume the system after a halt.
+  Force stop all automated operations.
+  
+  Resume the system after a halt.
 
 🛠️ Technology Stack
-Hardware
-Microcontroller: ESP32 DevKit V1
+  Hardware
+    Microcontroller: ESP32 DevKit V1
+    
+    Sensors:
+    
+    pH Sensor (Analog)
+    
+    EC Sensor (Analog)
+    
+    LDR (Light Dependent Resistor)
+    
+    Actuators:
+    
+    2x 5V Relay Modules (for pump and grow light)
 
-Sensors:
-
-pH Sensor (Analog)
-
-EC Sensor (Analog)
-
-LDR (Light Dependent Resistor)
-
-Actuators:
-
-2x 5V Relay Modules (for pump and grow light)
-
-Software
-Framework: C++ on the Arduino Framework
-
-IDE: PlatformIO in Visual Studio Code
-
-Simulation: Wokwi Simulator
-
-Key Libraries: WebServer.h, WiFi.h
-
-Frontend: HTML, CSS, and vanilla JavaScript with Chart.js loaded from a CDN.
+  Software
+    Framework: C++ on the Arduino Framework
+    
+    IDE: PlatformIO in Visual Studio Code
+    
+    Simulation: Wokwi Simulator
+    
+    Key Libraries: WebServer.h, WiFi.h
+    
+    Frontend: HTML, CSS, and vanilla JavaScript with Chart.js loaded from a CDN.
 
 🔌 Hardware & Wiring
 This project uses the following pin configuration, which can be adjusted in main.cpp.
